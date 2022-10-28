@@ -1,7 +1,14 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import "antd/dist/antd.css";
+import AppLayout from "../components/layouts/AppLayout";
+import "../styles/Applayout.css";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }) {
+  return (
+    <AppLayout>
+      <Component {...pageProps} />
+    </AppLayout>
+  );
 }
 
-export default MyApp
+export default App;
