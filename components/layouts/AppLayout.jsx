@@ -2,7 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { useWeb3 } from "@3rdweb/hooks";
-import { DashboardOutlined, SettingOutlined, UsergroupAddOutlined, UserOutlined, RocketOutlined, DownOutlined, LogoutOutlined } from '@ant-design/icons';
+import { DashboardOutlined, SettingOutlined, UsergroupAddOutlined, UserOutlined, DownOutlined, LogoutOutlined } from '@ant-design/icons';
 import { Layout, Menu, Avatar, Dropdown, Space, Row, Button, Typography, Image } from 'antd';
 const { Header, Content, Footer, Sider } = Layout;
 const { Text } = Typography
@@ -55,7 +55,7 @@ const AppLayout = ({ children }) => {
             key: 'Employees',
             icon: <UsergroupAddOutlined />,
             lable: 'Employees',
-            href: '/employees'
+            href: '/employees',
         },
         {
             key: 'profile',
