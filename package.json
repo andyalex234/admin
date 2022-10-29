@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.0.0",
+    "@3rdweb/hooks": "^1.9.2",
+    "@3rdweb/react": "^1.9.3",
+    "@3rdweb/sdk": "^1.42.1",
     "@ant-design/icons": "latest",
     "antd": "^4.23.6",
+    "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
