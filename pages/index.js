@@ -23,6 +23,9 @@ export default function Dashboard() {
         <div>
           Map of distribution of employees
         </div>
+        <div>
+          Real time transaction on the chain
+        </div>
     </div>
   );
 }
